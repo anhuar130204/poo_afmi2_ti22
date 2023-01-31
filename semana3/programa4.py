@@ -1,3 +1,9 @@
+"""
+   Programa4
+   Nombre:Anhuar Fernando MI                                              
+   Fecha: 30/01/2023                                                      
+   Descripcion:operaciones basicas a travez del introduccion de valores desde elteclado
+"""
 import math #importacion del metodo math
 numero1 = int(input('Numero 1:')) # se declara la variable y pide introducir un entero
 numero2 = int(input("numero 2:")) # se declara la variable y pide introducir un entero

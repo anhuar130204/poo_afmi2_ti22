@@ -8,3 +8,5 @@
 |3|programa2.py|formateo de variables con el metodo format|
 |4|programa3.py|se realizo operaciones aritmeticas dentro de un print y format|
 |5|programa4.py|se realizo el metoddo para introducir datos desde teclado|
+|6|programa5.py|se realizo el calculo de area y perimetro de cualquier triangulo|
+|7|programa6.py|se realizo el calculo de area y perimtro de circulo y cuadrado|

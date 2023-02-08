@@ -10,4 +10,5 @@
 |5|programa4.py|se realizo el metoddo para introducir datos desde teclado|
 |6|programa5.py|se realizo el calculo de area y perimetro de cualquier triangulo|
 |7|programa6.py|se realizo el calculo de area y perimetro de circulo y cuadrado|
-|8|programa7.py|comparacion de 2 numeros y determina el mayo
+|8|programa7.py|comparacion de 2 numeros y determina el mayor|
+|9|programa8.py|mayor de 2 numeros en 11 versiones

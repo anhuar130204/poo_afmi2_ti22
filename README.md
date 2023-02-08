@@ -11,4 +11,5 @@
 |6|programa5.py|se realizo el calculo de area y perimetro de cualquier triangulo|
 |7|programa6.py|se realizo el calculo de area y perimetro de circulo y cuadrado|
 |8|programa7.py|comparacion de 2 numeros y determina el mayor|
-|9|programa8.py|mayor de 2 numeros en 11 versiones
+|9|programa8.py|mayor de 2 numeros en 11 versiones|
+|10|progrma9.py| mayor de 2 numeros por metodos|

@@ -10,13 +10,13 @@ def mayor (numero1,numero2):  # definicion del metodo mayor para asignar numeres
   elif numero2 >numero1:   # comparación de numero2 mayor que Numero1
      print(numero2) # imprimir el valor de número2
   else:
-      print ("Iguales")   # imprimir iguales 
+      print ("Iguales")   # imprimir iguales  cuando se cumple la condicion anterior
 mayor (3,2) # 3
 mayor (2,3) # 3
 mayor (3,3) # Iguales
 
-def mayor (numero1:int,numero2:int)->int: #asignacion de metodo mayor para solo recibir valores enteros y sacar número entero
-    mayor = None
+def mayor (numero1:int,numero2:int)->int: #asignacion de metodo mayor para solo recibir valores enteros y sugerir sacar número entero
+    mayor = None # asignacion de valor None
     if numero1> numero2:
      mayor =numero1   #  asignación de resultado mayor es igual a valor de número1
     elif numero2 > numero1:

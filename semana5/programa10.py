@@ -2,7 +2,7 @@
    Programa10
    Nombre:Anhuar Fernando MI                                              
    Fecha: 13/02/2023                                                      
-   Descripcion: clases alumno y persona
+   Descripcion: clases alumno,persona,colaborador y profesor
 """
 class Persona:
     __nombre = None

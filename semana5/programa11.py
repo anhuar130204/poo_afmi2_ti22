@@ -2,7 +2,7 @@
    Programa11
    Nombre:Anhuar Fernando MI                                              
    Fecha: 14/02/2023                                                      
-   Descripcion: clases alumno y persona
+   Descripcion: clases alumno y persona con heredacion
 """
 class Persona:
     __nombre = None

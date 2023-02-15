@@ -14,4 +14,4 @@
 |9|programa8.py|mayor de 2 numeros en 11 versiones|
 |10|progrma9.py| mayor de 2 numeros por metodos|
 |11|progrma10.py|creacion de clases persona,alumno,colaborador,profesor
-|12|programa11.py|cracion de clases persona laumno con heredacion
+|12|programa11.py|cracion de clases persona alumno con heredacion

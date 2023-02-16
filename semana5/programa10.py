@@ -26,11 +26,12 @@ class Persona:  # cracion de la clase Persona
     def getEdad(self):        # Función que regresa el valor de la variable privada __edad
         return self.__edad    # Regresa el valor de la variable privada __edad
         
-dejah = Persona()
-dejah.setNombre("Dejah") 
-print(dejah.getNombre())
-dejah.setCorreo("145134@gmail.com")
-print(dejah.getCorreo())
+dejah = Persona()   # se crea un objeto persona
+dejah.setNombre("Dejah")  # se llama al metodo setNombre para llenarlo
+print(dejah.getNombre())  # se imprime el nombre introducido en setNombre
+dejah.setCorreo("145134@gmail.com")  # se llena el mmetodo setCorreo
+print(dejah.getCorreo()) # se imprime correo introducido en setCorreo
+
 
 class Alumno: # cracion de la clase Alumno
     __nombre = None # variable privada __nombre
@@ -52,13 +53,13 @@ class Alumno: # cracion de la clase Alumno
         self.__carrera = carrera     # Modifica el valor de la variable privada __carrera y la vuelve publica como carrera
     def getCarrera(self):     # Función que regresa el valor de la variable privada __carrera
         return self.__carrera     # Regresa el valor de la variable privada __carrera
-oscar = Alumno()
-oscar.setNombre("Oscar")
-oscar.setMatricula("17222111012")
-oscar.setCarrera("Tecnologias")
-print("Nombre: ",oscar.getNombre(),"\n"
-      "Matricula: ",oscar.getMatricula(),"\n"
-      "Carrera: ",oscar.getCarrera())
+oscar = Alumno() #crea un objeto de la clase alumno
+oscar.setNombre("Oscar")  #crea un objeto de la clase alumno con nombre "oscar"
+oscar.setMatricula("17222111012")  #crea un objeto de la clase alumno con nummero de matricula
+oscar.setCarrera("Tecnologias")    # crea objeto con la clase alumno llamado la variable setCarrera
+print("Nombre: ",oscar.getNombre(),"\n"       # se immprime getNombre
+      "Matricula: ",oscar.getMatricula(),"\n"  # se imprime getMatricula
+      "Carrera: ",oscar.getCarrera())  # se imprime getCarrera
 
 class Profesor(Persona):   #crea la clase profesor que hereda de la clase persona
     __no_nomina = None     # variable privada __no_nomina
@@ -69,7 +70,7 @@ class Profesor(Persona):   #crea la clase profesor que hereda de la clase person
         self.__no_nomina = no_nomina   # Modifica el valor de la variable privada __no_nomina y la vuelve publica como no_nomina
     def getNoNomina(self):           # Función que regresa el valor de la variable privada __no_nomina
         return self.__no_nomina   # Regresa el valor de la variable privada __no_nomina
-objeto_profesor = Profesor()
+objeto_profesor = Profesor()   # crea un objeto de la clase profesor
 
 class Cordinador(Persona):   #crea la clase Cordinador que hereda de la clase Persona
     __no_nomina = None  # variable privada __no_nomina
@@ -81,13 +82,13 @@ class Cordinador(Persona):   #crea la clase Cordinador que hereda de la clase Pe
     def getNoNomina(self):              # Función que regresa el valor de la variable privada __no_nomina
         return self.__no_nomina      # Regresa el valor de la variable privada __no_nomina
         
-no_nomina = (int(input("ingrese nomina: ")))
-objeto_cordinador = Cordinador()
-objeto_cordinador.setNombre("oscar")
-objeto_cordinador.setEdad("22")
-objeto_cordinador.setCorreo("oscar@gmail.com")
-objeto_cordinador.setNoNomina(no_nomina)
-print("Nombre: ",objeto_cordinador.getNombre(),"\n"
-      "Edad: ",objeto_cordinador.getEdad(),"\n"
-      "Correo: ",objeto_cordinador.getCorreo(),"\n"
-      "No de nomina: ",objeto_cordinador.getNoNomina())
+no_nomina = (int(input("ingrese nomina: ")))  # se crea la variable no_nomina para que
+objeto_cordinador = Cordinador()   # se crea el objeto cordinador
+objeto_cordinador.setNombre("oscar")  # se llena la funcion setNombre 
+objeto_cordinador.setEdad("22")  # se llena la funcion heredada setEdad
+objeto_cordinador.setCorreo("oscar@gmail.com")  # se llena la funcion heredada setCorreo
+objeto_cordinador.setNoNomina(no_nomina)  # se llama la  variable no_nomina para despues imprimirlo
+print("Nombre: ",objeto_cordinador.getNombre(),"\n"  # se imprime GetNombre
+      "Edad: ",objeto_cordinador.getEdad(),"\n"   # se imprime GetEdad
+      "Correo: ",objeto_cordinador.getCorreo(),"\n"   # se imprime getCorreo
+      "No de nomina: ",objeto_cordinador.getNoNomina())  # se imrpime getNoNomina
